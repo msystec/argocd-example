@@ -23,7 +23,7 @@ spec:
       # environment variables passed to the plugin
       env:
         - name: SOPS_KMS_ARN
-          value: arn:aws:kms:us-east-1:591415181778:key/48161235-0e48-4aac-9a2c-9b2f99d9e167
+          value: arn:aws:eks:us-east-1:267767410086:cluster/Demo-Argocd
 
   # Destination cluster and namespace to deploy the application
   destination:
